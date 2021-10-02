@@ -9,6 +9,7 @@ const [,, src] = process.argv
 
 if(!src) {
   console.log('Directory path is missing.')
+  return
 }
 
 glob(`${src}/**/*.jsx`, {},function (er, files) {
@@ -33,6 +34,8 @@ glob(`${src}/**/*.jsx`, {},function (er, files) {
       .replace('const ', 'declare const ')
 
     fs.writeFileSync(dtsFile, dtsData)
+
+    console.log(`'${dtsFile.replace(src, '')}' created successfully.`)
 
   })
 })

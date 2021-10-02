@@ -1,10 +1,10 @@
 {
   "name": "props2dts",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Tool to generate *.d.ts from *.jsx",
   "main": "index.js",
   "scripts": {
-    "generate": "node index.js"
+    "generate": "node cli.js"
   },
   "repository": "https://github.com/nyasro/props2dts.git",
   "author": "nyasro <nyasro@gmail.com>",
