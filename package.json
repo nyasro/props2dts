@@ -1,0 +1,16 @@
+{
+  "name": "props2dts",
+  "version": "1.0.0",
+  "description": "Tool to generate *.d.ts from *.jsx",
+  "main": "index.js",
+  "scripts": {
+    "generate": "node index.js"
+  },
+  "repository": "https://github.com/nyasro/props2dts.git",
+  "author": "nyasro <nyasro@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "glob": "^7.2.0",
+    "react-to-typescript-definitions": "^3.0.1"
+  }
+}
