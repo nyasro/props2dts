@@ -8,6 +8,7 @@
   },
   "repository": "https://github.com/nyasro/props2dts.git",
   "author": "nyasro <nyasro@gmail.com>",
+  "keywords": ["react","prop-types", "typescript", "d.ts", "jsx", "generator", "development"],
   "license": "MIT",
   "devDependencies": {
     "glob": "^7.2.0",
