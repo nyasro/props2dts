@@ -4,7 +4,6 @@
 
 ## Installing
 
-----
 ```
 yarn install props2dts --dev
 ```
@@ -13,9 +12,7 @@ OR
 npm install props2dts --save-dev
 ```
 
-##Usage
-
-----
+## Usage
 
 ```
 yarn generate {filename}

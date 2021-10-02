@@ -1,6 +1,6 @@
 {
   "name": "props2dts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Tool to generate *.d.ts from *.jsx",
   "main": "index.js",
   "scripts": {
