@@ -15,7 +15,7 @@ npm install props2dts --save-dev
 ## Usage
 
 ```
-yarn generate {filename}
+yarn generate {root_dirname}
 ```
 For example:
 ```
